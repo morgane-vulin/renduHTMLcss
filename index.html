@@ -12,7 +12,7 @@
     <nav>
             <ul>
                 <li>
-                    <a href="A propos">A propos</a>
+                    <a href="apropos.html">A propos</a>
                 </li>
                 <li>
                     <a href="Boutique">Boutique</a>
@@ -23,12 +23,12 @@
             </ul>
     </nav>
 </header>
-<main>+
+<main>
     <section class="section1">
-        <img src="istockphoto-1064209070-612x612.jpg" alt="Bougie" id="bougie">
+        <img src="Sans titre2.jpg" alt="Bougie" id="bougie">
         <div class="div1">
             <img src="logoB.svg" alt="logo">
-            <h1>Des bougies qui racontent une histoire</h1>
+            <h1 class="footer">Des bougies qui racontent une histoire</h1>
         </div>
     </section>
     <section class="section2">
@@ -37,54 +37,87 @@
             Nos parfums sont inspirés de la nature, des saisons et des souvenirs...</p>
         <div class="div2">
             <article class="article1">
-                <img src="plant.svg" alt="">
+                <img src="plant.svg" alt="" class="img">
                 <p>Ingrédients naturels</p>
             </article>
             <article class="article1">
-                <img src="hand.svg" alt="">
+                <img src="hand.svg" alt="" class="img">
                 <p>Fait main</p>
             </article>
             <article class="article1">
-                <img src="planet.svg" alt="">
+                <img src="planet.svg" alt="" class="img">
                 <p>Ecorésponsable</p>
             </article>
         </div>
     </section>
-    <p class="p1">Laissez-vous séduire par les parfums délicats de nos bougies artisanales.</p>
+    <p id="p1">Laissez-vous séduire par les parfums délicats de nos bougies artisanales.</p>
     <section class="section3">
-        <h2>Pourquoi achter nos bougies?</h2>
-        <article class="article2">
-            <img src="" alt="">
-            <h3>Feu de Camp</h3>
-            <h4>29,90€</h4>
-            <p>Une odeur de boisée avec une touche fumée</p>
-            <button>Ajouter au panier</button>
-        </article>
-        <article class="article2">
-            <img src="" alt="">
-            <h3>Rose antique</h3>
-            <h4>39,90€</h4>
-            <p>Douceur florale avec une touche poudrée</p>
-            <button>Ajouter au panier</button>
-        </article>
-        <article class="article2">
-            <img src="" alt="">
-            <h3>Thé Chai Épicé</h3>
-            <h4>29,90€</h4>
-            <p>Notes de cannelle,cardamome et gingembre</p>
-            <button>Ajouter au panier</button>
-        </article>
+        <h2>Nos dernières bougies</h2>
+        <div class="div3">
+            <article class="article2">
+                <img src="bougie.jpg" alt="" class="bougie">
+                <h3>Feu de Camp</h3>
+                <h4>29,90€</h4>
+                <p>Une odeur de boisée avec une touche fumée</p>
+                <button>Ajouter au panier</button>
+            </article>
+            <article class="article2">
+                <img src="image rose.jpg" alt="" class="bougie">
+                <h3>Rose antique</h3>
+                <h4>39,90€</h4>
+                <p>Douceur florale avec une touche poudrée</p>
+                <button>Ajouter au panier</button>
+            </article>
+            <article class="article2">
+                <img src="bougie marron.jpg" alt="" class="bougie">
+                <h3>Thé Chai Épicé</h3>
+                <h4>29,90€</h4>
+                <p>Notes de cannelle,cardamome et gingembre</p>
+                <button>Ajouter au panier</button>
+            </article>
+        </div>
+       
         <section class="section4">
-            <h2>Pourquoi acheter nos bougies?</h2>
-            <div class="div3">
-                <label for="Nom"></label>
-                <input type="Nom">
-                <label for="Mail"></label>
-                <input type="Mail">
-            </div>
-            <textarea name="message" id=""></textarea>
-        </section>
+            <h2>Nous contacter</h2>
+            <form action="">
+                <div class="form-row1">
+                    <div>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div>
+                        <label for="mail">Mail</label>
+                        <input type="email" name="mail" id="mail">
+                    </div>
+                </div>
+                <div>
+                    <label for="">message</label>
+                    <textarea name="Message" id=""></textarea>
+                </div>
+                <button>Envoyer</button>
+            </form> 
+            <!-- <section class="section5">
+                <div class="div4">
+                    <label for="Nom">Nom</label>
+                    <input type="text">
+                    <br>
+                    <div>
+                    <label for="Mail">Mail</label>
+                    <input type="text">
+                    <br>
+                    </div>
+                </div>
+                <textarea name="Message" id=""></textarea> 
+                <button>Envoyer</button>
+            </section>
+        </section> -->
     </section>
 </main>
+<footer>
+    <section>
+        <img src="logoB.svg" alt="">
+        <p class="footer">Bougies artisanales coulées à la main en France, avec des ingrédients naturels et un soupçon de magie. </p>
+    </section>
+</footer>
 </body>
 </html>
