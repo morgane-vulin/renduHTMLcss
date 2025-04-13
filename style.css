@@ -27,7 +27,7 @@ ul{
     background-color:rgb(255, 255, 221);
     text-align: center;
     *{
-        padding: 20px;
+        padding: 12px;
     }
 }
 #bougie{
@@ -36,12 +36,16 @@ ul{
 }
 h2{
     text-align: center;
+    padding: 0%;
+    font-family: "Special Gothic Condensed One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     padding: 2%;
 }
 .article1{
     border: 1px solid #46352A;
-    padding: 5px;
-    width: 15%;
+    padding: 0px;
+    width: 151px;
 }
 .div1{
     display: flex;
@@ -50,19 +54,28 @@ h2{
     flex-direction: column;
     align-items: center;
 }
-.div2{
+#div2{
     display:flex;
-    justify-content: space-evenly ;
+    justify-content:center ;
+    gap: 110px;
+    padding: 2%;
+}
+.texte1{
+    padding-right: 23%;
+    PADDING-LEFT: 22%;
 }
 .img{
-    width: 100px;
-}
-p{
-    text-align: center;
+    width: 70px;
 }
 #p1{
-    background-color: rgb(4, 102, 4) ;
-    padding: 3%;
+    background-color: #0b750b ;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-size: larger;
 }
 .article2{
     width: 180px;
@@ -72,6 +85,7 @@ p{
   height: fit-content;
     img{
     width: 170px;
+    padding-bottom: 3%;
     }
     flex-direction: row;
   align-items: center;
@@ -81,6 +95,9 @@ p{
 .div3{
     display: flex;
     justify-content: space-evenly ;
+    justify-content: center;
+    gap: 50px;
+    transform: scale(0.8);
 }
 
 .bougie{
@@ -89,10 +106,10 @@ p{
     border-radius: 10px;
 }
 .section3{
-    background-color: rgb(255, 255, 221);
+    background-color: rgb(2553, 255, 221);
 }
-.section5{
-    padding: 5px;
+.section4{
+    padding: 20px;
 }
 form{
     width: fit-content;
@@ -105,7 +122,7 @@ form{
     flex-direction: column;
 }
 .form-row1{
-    
+    display: flex;
 }
 footer{
     background-color: #46352A;
@@ -113,4 +130,55 @@ footer{
 }
 .footer{
     color: white;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.bouton{
+    background-color: #0b750b;
+    padding: 2%;
+    color: white;
+    font-size: x-small;
+}
+h3{
+    padding-bottom: 5%;
+}
+h4{
+    padding-bottom: 5%;
+    color: #0b750b;
+    font-weight: ;
+}
+.valeur{
+    padding-bottom: 5%;
+}
+label{
+    margin-bottom: 3%;
+}
+#calendrier{
+    width: 200px;
+    margin-left: 15%;
+}
+#div1{
+    display: flex;
+    padding-bottom: 3%;
+}
+
+#normal{
+    margin-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.article0{
+    border: 1px solid #46352A;
+    padding: 0px;
+    width: 129px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.sec{
+    background-color: antiquewhite;
+}
+#COLOR{
+    background-color: rgb(255, 255, 221);
 }

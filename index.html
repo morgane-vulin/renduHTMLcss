@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bougie</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -12,7 +18,7 @@
     <nav>
             <ul>
                 <li>
-                    <a href="apropos.html">A propos</a>
+                    <a href="apropos.html" target="_blank">A propos</a>
                 </li>
                 <li>
                     <a href="Boutique">Boutique</a>
@@ -33,9 +39,9 @@
     </section>
     <section class="section2">
         <h2>Pourquoi acheter nos bougies?</h2>
-        <p>Bienvenue chez Lueur & Parfum, une boutique artisanale où chaque bougie est coulée à la main avec amour.
+        <p class="texte1">Bienvenue chez Lueur & Parfum, une boutique artisanale où chaque bougie est coulée à la main avec amour.
             Nos parfums sont inspirés de la nature, des saisons et des souvenirs...</p>
-        <div class="div2">
+        <div id="div2">
             <article class="article1">
                 <img src="plant.svg" alt="" class="img">
                 <p>Ingrédients naturels</p>
@@ -52,65 +58,51 @@
     </section>
     <p id="p1">Laissez-vous séduire par les parfums délicats de nos bougies artisanales.</p>
     <section class="section3">
-        <h2>Nos dernières bougies</h2>
+        <h2 class="h2">Nos dernières bougies</h2>
         <div class="div3">
             <article class="article2">
                 <img src="bougie.jpg" alt="" class="bougie">
                 <h3>Feu de Camp</h3>
                 <h4>29,90€</h4>
-                <p>Une odeur de boisée avec une touche fumée</p>
-                <button>Ajouter au panier</button>
+                <p class="valeur">Une odeur de boisée avec une touche fumée</p>
+                <button class="bouton">Ajouter au panier</button>
             </article>
             <article class="article2">
                 <img src="image rose.jpg" alt="" class="bougie">
                 <h3>Rose antique</h3>
                 <h4>39,90€</h4>
-                <p>Douceur florale avec une touche poudrée</p>
-                <button>Ajouter au panier</button>
+                <p class="valeur">Douceur florale avec une touche poudrée</p>
+                <button class="bouton">Ajouter au panier</button>
             </article>
             <article class="article2">
                 <img src="bougie marron.jpg" alt="" class="bougie">
                 <h3>Thé Chai Épicé</h3>
                 <h4>29,90€</h4>
-                <p>Notes de cannelle,cardamome et gingembre</p>
-                <button>Ajouter au panier</button>
+                <p class="valeur">Notes de cannelle ,
+                    cardamome et gingembre</p>
+                <button class="bouton">Ajouter au panier</button>
             </article>
         </div>
        
         <section class="section4">
-            <h2>Nous contacter</h2>
+            <h2 class="h2">Nous contacter</h2>
             <form action="">
                 <div class="form-row1">
-                    <div>
+                    <div class="message">
                         <label for="nom">Nom</label>
                         <input type="text" name="nom" id="nom">
                     </div>
-                    <div>
+                    <div class="message">
                         <label for="mail">Mail</label>
                         <input type="email" name="mail" id="mail">
                     </div>
                 </div>
-                <div>
-                    <label for="">message</label>
+                <div class="message">
+                    <label for="">Message</label>
                     <textarea name="Message" id=""></textarea>
                 </div>
                 <button>Envoyer</button>
             </form> 
-            <!-- <section class="section5">
-                <div class="div4">
-                    <label for="Nom">Nom</label>
-                    <input type="text">
-                    <br>
-                    <div>
-                    <label for="Mail">Mail</label>
-                    <input type="text">
-                    <br>
-                    </div>
-                </div>
-                <textarea name="Message" id=""></textarea> 
-                <button>Envoyer</button>
-            </section>
-        </section> -->
     </section>
 </main>
 <footer>
