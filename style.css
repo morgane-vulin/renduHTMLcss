@@ -15,7 +15,7 @@ ul{
     gap: 20px;
     a{
         text-decoration: none;
-        color: #46352A;
+        color: #462a43;
     }
 }
 .section1{
@@ -74,7 +74,7 @@ h2{
     color: white;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-size: larger;
 }
 .article2{
@@ -147,7 +147,6 @@ h3{
 h4{
     padding-bottom: 5%;
     color: #0b750b;
-    font-weight: ;
 }
 .valeur{
     padding-bottom: 5%;
